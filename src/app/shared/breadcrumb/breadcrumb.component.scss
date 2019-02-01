@@ -1,0 +1,33 @@
+.breadcrumb {
+    background-color: #f7f7f7;
+    padding: 8px 10px;
+}
+
+.breadcrumb li {
+    background-color: #f7f7f7;
+    padding: 8px 0px;
+}
+
+.breadcrumb span,
+.breadcrumb a {
+    font-size: 16px;
+    font-weight: 500;
+    color: #9c9c9c;
+}
+
+.breadcrumb .disabled {
+    color: #d4d4d4 !important;
+}
+
+.breadcrumb .active {
+    color: #505050;
+}
+
+.uk-breadcrumb > :nth-child(n+2):not(.uk-first-column)::before {
+    content: ">";
+    display: inline-block;
+    margin: 0 8px;
+    color: #d6d6d6;
+    font-weight: 600;
+    font-size: 12px;
+}

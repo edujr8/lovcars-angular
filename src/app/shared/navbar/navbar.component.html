@@ -1,0 +1,205 @@
+<!-- Inicio Menu Topo -->
+<nav class="uk-navbar-container menu-topo-internal" uk-navbar>
+
+  <div class="uk-navbar-left">
+
+    <ul class="uk-navbar-nav">
+
+      <!-- Botão Menu Mobile -->
+      <li class="uk-hidden@s">
+        <a uk-toggle="target: #menu-mobile">
+          <i class="fas fa-bars"></i>
+        </a>
+      </li>
+
+    </ul>
+
+  </div>
+
+  <div class="uk-navbar-right">
+
+    <ul class="uk-navbar-nav">
+
+      <!-- Inicio Notificações -->
+      <li>
+
+        <a uk-toggle="target: #list-notification">
+          <span class="uk-badge">1</span>
+          <i class="far fa-bell"></i>
+        </a>
+
+        <div id="list-notification" uk-offcanvas="flip: true; overlay: false">
+
+          <div class="uk-offcanvas-bar container-offcanvas-menu  container-notification">
+
+            <button class="uk-offcanvas-close" type="button" uk-close></button>
+
+            <p class="title">
+              Notificações
+            </p>
+
+            <ul class="uk-list uk-list-large uk-list-divider list-notification">
+
+              <li>
+
+                <i class="far fa-flag new-notification"></i>
+
+                <span>
+                  <p>
+                    Titulo
+                  </p>
+
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim.
+
+                </span>
+
+                <p class="date-notification">
+                  01/01/2018 12:00
+                </p>
+
+              </li>
+
+              <li>
+
+                <i class="far fa-flag new-notification"></i>
+
+                <span>
+                  <p>
+                    Titulo
+                  </p>
+
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim.
+
+                </span>
+
+                <p class="date-notification">
+                  01/01/2018 12:00
+                </p>
+              </li>
+
+              <li>
+
+                <i class="far fa-flag new-notification"></i>
+
+                <span>
+                  <p>
+                    Titulo
+                  </p>
+
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim.
+
+                </span>
+
+                <p class="date-notification">
+                  01/01/2018 12:00
+                </p>
+              </li>
+
+              <li>
+
+                <i class="far fa-flag"></i>
+
+                <span>
+                  <p>
+                    Titulo
+                  </p>
+
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim.
+
+                </span>
+
+                <p class="date-notification">
+                  01/01/2018 12:00
+                </p>
+              </li>
+
+              <li>
+
+                <i class="far fa-flag"></i>
+
+                <span>
+                  <p>
+                    Titulo
+                  </p>
+
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim.
+
+                </span>
+
+                <p class="date-notification">
+                  01/01/2018 12:00
+                </p>
+              </li>
+
+            </ul>
+
+          </div>
+
+        </div>
+
+      </li>
+      <!-- Fim Notificações -->
+
+      <!-- Inicio Perfil do Usuário -->
+      <li>
+
+        <a uk-toggle="target: #user-profile">
+          <span class="uk-visible@s">Olá fulano !</span>
+          <img src="assets/images/img-perfil.jpg" class="uk-border-circle img-perfil" />
+        </a>
+
+        <div id="user-profile" uk-offcanvas="flip: true; overlay: false">
+
+          <div class="uk-offcanvas-bar container-offcanvas-menu container-perfil">
+
+            <button class="uk-offcanvas-close" type="button" uk-close></button>
+
+            <div class="container-img-perfil">
+
+              <p class="uk-visible@s">
+                Fulano
+              </p>
+
+              <img src="assets/images/img-perfil.jpg" class="uk-border-circle" />
+            </div>
+
+            <div class="list-item-perfil">
+
+              <ul class="uk-list">
+                <li>
+                  <a >
+                    <i class="far fa-user"></i> Preferências
+                  </a>
+                </li>
+
+                <li>
+                  <a >
+                    <i class="fas fa-cog"></i> Configurações
+                  </a>
+                </li>
+
+                <li>
+                  <a (click)="onLogout()">
+                    <i class="fas fa-sign-out-alt"></i> Sair
+                  </a>
+                </li>
+              </ul>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </li>
+      <!-- Fim Perfil Usuário -->
+
+    </ul>
+
+  </div>
+</nav>

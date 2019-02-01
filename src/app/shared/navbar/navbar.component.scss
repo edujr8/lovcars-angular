@@ -1,0 +1,180 @@
+// Inicio CSS do Menu Topo Interno
+.menu-topo-internal {
+    box-shadow: 5px 1px 10px rgba(0, 0, 0, 0.29);
+    background: linear-gradient(to right, #28954ea1, #238445);
+}
+
+.menu-topo-internal .far,
+.menu-topo-internal .fas {
+    font-size: 28px;
+}
+
+.menu-topo-internal .uk-badge {
+    background: #ff4b4b;
+    position: absolute;
+    font-size: 11px;
+    padding-right: 7px;
+    margin-left: 10px;
+    margin-top: -8px;
+}
+
+.menu-topo-internal a {
+    color: #fff;
+    font-weight: 600;
+}
+
+.menu-topo-internal li:hover {
+    background-color: #ffffff26;
+}
+
+.img-perfil {
+    width: 50px;
+    border: 3px solid #05712b;
+    margin-left: 10px;
+}
+
+.container-offcanvas-menu {
+    background-color: #fff;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.32);
+}
+
+// Inicio CSS OFFCANVAS perfil
+.container-perfil {
+    padding: 0px;
+}
+
+.container-img-perfil {
+    text-align: right;
+    background-color: #333;
+    height: 110px
+}
+
+.container-perfil .uk-close{
+    color: #fffdfd;
+    padding: 8px;
+    position: absolute;
+    z-index: 1000;
+    top: 20px;
+    left: 20px;
+}
+
+.container-perfil .uk-close:hover{
+    background-color: #efefef;
+    border-radius: 16px;
+    color: #333;
+}
+
+.container-img-perfil img {
+    width: 150px;
+    border: 3px solid #333;
+    margin: 15px;
+}
+
+.list-item-perfil {
+    margin-top: 90px;
+    background-color: #ffffff;
+}
+
+.container-img-perfil p {
+    font-size: 25px;
+    color: #fff;
+    font-weight: 600;
+    position: absolute;
+    top: 70px;
+    left: 30px;
+}
+
+.list-item-perfil ul {    
+    margin: 40px 15px;
+}
+
+.list-item-perfil li {
+    height: 40px;
+    padding-top: 6px;
+}
+
+.list-item-perfil a {
+    color: #333;
+    font-size: 22px;
+    font-weight: 600;
+    margin-left: 18px;
+}
+
+.list-item-perfil li:hover {
+    background-color: #f5f5f5;
+}
+
+.list-item-perfil a:hover {
+    text-decoration: none;
+}
+
+.list-item-perfil i{
+    margin-right: 10px;
+    font-size: 30px;
+    vertical-align: -4px;
+}
+// Fim CSS OFFCANVAS perfil
+
+// Inicio CSS Notificações 
+
+.container-notification {
+    padding-top: 12px;
+    color: #333;
+}
+
+.container-notification .title {
+    color: #9a9797;
+    margin: 0px;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.container-notification .uk-offcanvas-close {
+    color: #ccc;    
+    border-radius: 15px;
+    padding: 7px;
+}
+
+.container-notification .uk-offcanvas-close:hover {
+    background-color: #656565;
+}
+
+.uk-offcanvas-bar .uk-list-divider > li:nth-child(n+2) {
+    border-top-color: rgba(189, 189, 189, 0.35);
+}
+
+.list-notification .far {
+    float: left;
+    font-size: 26px;
+    margin: 8px;
+    margin-left: 15px;
+    margin-right: 18px;
+    margin-top: 18px;
+    color: #e8e8e8;
+}
+
+.list-notification p {
+    font-size: 18px;
+    font-weight: 500;
+    padding: 5px;
+    margin-bottom: -8px;
+    color: #737272;
+    text-align: left
+}
+
+.list-notification span {
+    font-size: 14px;
+    font-weight: 500;
+    color: #b1b1b1;    
+}
+
+.list-notification .new-notification {
+    color: #21ff21 !important;
+}
+
+.list-notification .date-notification {
+    text-align: right;
+    font-size: 12px;
+    margin-top: 0px;
+    color: #bdbdbd;
+}

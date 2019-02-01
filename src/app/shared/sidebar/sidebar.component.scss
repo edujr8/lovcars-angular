@@ -1,0 +1,104 @@
+// Inicio do CSS do Menu Lateral Interno 
+.sidbar-internal {
+    z-index: 1;
+    overflow: auto;
+    height: 100%;
+    box-shadow: 5px 1px 10px rgba(0, 0, 0, 0.32);
+}
+
+.sidbar-internal img {
+    padding: 20px 0px 10px 0px;
+    margin: auto;
+    width: 170px;
+}
+
+.list-submenu a {
+    padding-left: 40px !important;
+    font-size: 16px !important;
+}
+
+.list-menu-mobile ul,
+.list-menu ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+.list-menu .active {
+    background-color: #f9f8f8;
+    border-right: 4px solid #00c10f7a;
+}
+
+.list-menu-mobile li {
+    margin: 0px
+}
+
+.list-menu li {
+    border-bottom: 1px solid #efefef;
+    margin: 0px
+}
+
+.list-menu-mobile a{
+    padding: 15px 8px;
+    display: block;
+    color: #fff;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.list-menu a {
+    padding: 15px;
+    display: block;
+    color: #666;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.list-menu-mobile a:hover {
+    text-decoration: none;
+    background-color: #424242;
+}
+
+.list-menu a:hover {
+    text-decoration: none;
+    background-color: #f7f3f3;
+}
+
+.list-menu-mobile .list-submenu .fas,
+.list-menu-mobile .fas {
+    font-size: 20px;
+    margin-right: 6px;
+    vertical-align: -2px;
+}
+
+.list-menu .list-submenu .fas,
+.list-menu .fas {
+    font-size: 24px;
+    margin-right: 6px;
+    vertical-align: -2px;
+}
+
+.list-menu-mobile .uk-accordion-title::after,
+.list-menu .uk-accordion-title::after {
+    width: 1.4em;
+    height: 1.4em;
+    float: right;
+    background-image: url(data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2213%22%20height%3D%2213…22%20height%3D%2213%22%20x%3D%226%22%20y%3D%220%22%20%2F%3E%0A%3C%2Fsvg%3E);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+.list-menu-mobile .list-menu-after-open,
+.list-menu .list-menu-after-open {
+    float: right;
+    font-size: 20px !important;
+    margin-top: 6px;
+}
+
+.list-menu-mobile .uk-open .list-menu-after-open,
+.list-menu .uk-open .list-menu-after-open {
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+// Fim CSS do Menu Lateral Interno

@@ -1,0 +1,8 @@
+<!-- pré loading para as requisições de POTS, PUT e DELETE-->
+<div class="page-loading-restricted uk-inline" [hidden]="!statusLoadingSeach.getStatusLoadingRegister()">
+    <div class="uk-position-medium uk-position-cover uk-overlay uk-flex uk-flex-center uk-flex-middle">
+        <img src="assets/images/loading.gif" />
+    </div>
+</div>
+
+<router-outlet></router-outlet>

@@ -1,0 +1,161 @@
+.navbar-fixed-top {
+    position: fixed;
+    border-bottom: 1px solid #9c9c9c59;
+    width: 100%;
+    background-color: #222;
+    margin: 0px;
+    color: #fff;
+    height: 50px;
+    z-index: 1;
+    box-shadow: inset 0px 1px 20px 8px #272727, 0px 1px 11px #464646;
+}
+
+.input-search-top-menu {
+    margin: 20px 10px;
+    margin-bottom: 0px;
+}
+
+.input-search-top-menu input {
+    border: 0px !important;
+    background-color: #333;
+    border-radius: 26px;
+    width: 300px;
+}
+
+.container-topo-menu {
+    background-color: #3b839e;
+    box-shadow: inset 0 0 4px #2d5d6f, 0px 1px 11px #2d5d6f;
+}
+
+.margin-negative-grid {
+    margin-top: -75px;
+}
+
+.img-avatar-user {
+    margin-top: -135px;
+    margin-left: 16px;
+    border: 6px solid #fff;
+    max-width: 190px;
+}
+
+.text-name-user-avatar {
+    font-size: 24px;
+    margin: 5px;
+    color: #fff;
+    text-shadow: 0 1px 2px rgb(0, 0, 0);
+}
+
+.text-link-menu-user {
+    font-size: 20px;
+    font-weight: 400;
+    padding: 0px;
+    color: #888;
+}
+
+.text-link-menu-user a,
+.text-link-menu-user a:hover {
+    color: #888;
+    text-decoration: none;
+}
+
+.text-link-menu-user i {
+    font-size: 16px;
+    vertical-align: 0px;
+    margin-right: 5px;
+}
+
+.uk-button-text::before {
+    border-bottom: 1px solid #888 !important;
+}
+
+.img-list-car-profile{
+    width: 120px;
+    margin-bottom: 0px;
+    float: right;
+}
+
+.plaque-list-car-profile {
+    background-color: #333;
+    position: absolute;
+    top: 66px;
+    padding: 2px 6px;
+    left: 23px;
+    color: #fff;
+    font-size: 13px;
+}
+
+.title-list-car-profile {
+    margin: 0px;
+    font-size: 12px;
+    padding: 6px;
+    font-weight: 700;
+}
+
+.info-list-car-profile ul {
+    padding-left: 5px;
+    width: 155px;
+}
+
+.info-list-car-profile li {
+    height: 14px;
+    font-size: 11px;
+    margin-left: 8px;
+    padding-left: 15px;
+}
+
+.icon-list-car-profile i {
+    float: right;
+    margin-top: 7px;
+    margin-right: 17px;
+    background-color: #eaeaea;
+    padding: 9px;
+    border-radius: 20px;
+}
+
+.header-card-timeline {
+    background-color: #3b839e;
+}
+
+.header-card-timeline h3, 
+.header-card-timeline p {
+    color: #fff;
+    text-shadow: 0 1px 2px black;
+}
+
+.header-card-timeline img {
+    border: 2px solid #c1c1c1;
+}
+
+.icon-social-menu-profile  {
+    background-color: #f3f3f3;
+    padding-right: 10px;
+    float: right;
+}
+
+.icon-social-menu-profile i {
+    font-size: 22px;
+    vertical-align: -2px;
+    margin-right: 4px;
+    padding: 7px;
+}
+
+.icon-footer-post-timeline {
+    background-color: #f3f3f3;
+    padding-right: 10px;
+    float: right;
+    margin-right: 4px;
+    font-weight: 700;
+    font-size: 13px;
+}
+
+.icon-footer-post-timeline i {
+    font-size: 15px !important;
+    vertical-align: 0px;
+    margin-right: 0px;
+    padding: 7px;
+    padding-right: 2px;
+}
+
+.card-post-timeline {
+    border: 1px solid #afafaf61;
+}
